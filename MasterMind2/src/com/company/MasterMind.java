@@ -48,8 +48,6 @@ public class MasterMind extends Game {
     public void SecretString() {
     }
 
-    public void History() {
-    }
 
     public void play() {
 

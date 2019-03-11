@@ -68,6 +68,7 @@ public class ChallengeModeM extends MasterMind {
         for (turn = 0; turn < getNbTurn(); turn++) {
             System.out.println("Essai n°(" + (turn + 1) + " /" + getNbTurn() + "):   ");
             String attempt = sc2.next();
+            aAttempt=Integer.parseInt(attempt);
 
                 if (attempt.length() != getNbCase()) {
                     logger.error("Votre tentative doit faire " + getNbCase() + " chiffre de longueur.");
@@ -77,6 +78,7 @@ public class ChallengeModeM extends MasterMind {
                         attempt+=1;
                     }
                     aAttempt=Integer.parseInt(attempt);
+
                     System.out.println("Si vous vous trompez votre essai deviens: "+aAttempt);
 
                 }

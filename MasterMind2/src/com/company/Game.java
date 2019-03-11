@@ -46,9 +46,6 @@ public class Game {
     public void SecretString() {
     }
 
-    public void History() {
-        System.out.println("Voici le récapitulatif de tes essais:");
-    }
 
     public void play() {
     }
