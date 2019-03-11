@@ -3,8 +3,6 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class PlusouMoins extends Game {
     protected String secretCode;
@@ -46,9 +44,6 @@ Integer secret2;
 
 
     public void SecretString() {
-    }
-
-    public void History() {
     }
 
 

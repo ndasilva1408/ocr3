@@ -56,10 +56,7 @@ public class ChallengeModeP extends PlusouMoins {
     }
 
 
-    @Override
-    public void History() {
 
-    }
 
 
 
@@ -73,6 +70,8 @@ public class ChallengeModeP extends PlusouMoins {
 
             System.out.println("Essai n°(" + (turn + 1) + "/" + getNbTurn() + "):   ");
             String attempt = sc.next();
+
+            aAttempt=Integer.parseInt(attempt);
 
             if (attempt.length() != getNbCase()) {
                 logger.error("Votre tentative doit faire " + getNbCase() + " chiffre de longueur.");
